@@ -24,7 +24,24 @@ randomCard2 = card[number2]
 
 var player1Guess = prompt('player 1 guess higher or lower:')
 
+while (player1Guess != 'higher'&&'lower') {
+  console.log('that is not a valid guess. please enter higher or lower')
+  player1Guess = prompt('player 1 guess higher or lower:')
+}
+
+
+
+
 var player2Guess = prompt('player 2 guess higher or lower:')
+
+
+while (player2Guess!='higher' && 'lower') {
+  console.log('that is not a valid guess. please enter higher or lower')
+  player2Guess = prompt('player 2 guess higher or lower:')
+}
+
+
+
 
 if(randomCard2>randomCard1){
   console.log('it is higher')
