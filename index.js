@@ -16,8 +16,8 @@ while ((isNaN(playRound)) || (playRound < 1) || (playRound == null) || (playRoun
 
 
 do{
-number = Math.floor(Math.random() * card.length + 0)
-randomCard = card[number]
+// number = Math.floor(Math.random() * card.length + 0)
+// randomCard = card[number]
 
 
 number1 = Math.floor(Math.random() * card.length + 0)
@@ -31,6 +31,20 @@ randomCard2 = card[number2]
 
 
 console.log('the first card is ' + randomCard1)
+
+var swap = prompt('would you like to draw another card? yes or no:')
+
+
+
+while(swap!='yes' && swap!='no'){
+  console.log('that is not a valid input. please enter yes or no:')
+  swap = prompt('would you like to draw another card? yes or no:')
+}
+if(swap=='yes'){
+number1 = Math.floor(Math.random() * card.length + 0)
+randomCard1 = card[number1]
+console.log('your new card is ' + randomCard1)
+}
 
 var player1Guess = prompt('player 1 guess higher or lower:')
 
