@@ -1,6 +1,6 @@
 
 
-card = ['an ace', 'a 2' , 'a 3' , 'a 4', 'a 5', 'a 6', 'a 7', 'an 8', 'a 9', 'a 10', 'jack', 'queen', 'king']
+card = ['an ace', 'a 2' , 'a 3' , 'a 4', 'a 5', 'a 6', 'a 7', 'an 8', 'a 9', 'a 10', 'a jack', 'a queen', 'a king']
 point1 = 0
 point2 = 0
 round = 0
